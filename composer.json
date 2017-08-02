@@ -1,0 +1,20 @@
+{
+  "name": "JordanMilne/ParanoidCurl",
+  "description": "SSRF-preventing wrapper for curl_exec, uses experimental PHP cURL callbacks",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Jordan Milne",
+      "email": "paranoidcurl@saynotolinux.com"
+    }
+  ],
+  "require": {
+    "php-ds/php-ds": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ParanoidCurl\\": ["src/"]
+    }
+  }
+}
